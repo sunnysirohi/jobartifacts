@@ -56,7 +56,7 @@ jobs:
       - name: Download build artifacts
         uses: actions/download-artifact@v3
         with:
-          name: build artifacts
+          name: build-artifacts
           path: download-build-artifacts/
 
       - name: Display the downloaded test result
